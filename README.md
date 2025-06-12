@@ -7,6 +7,8 @@
 ## 🚀 Advanced Solana MEV Bot for Maximum Profit
 
 A high-performance MEV (Maximal Extractable Value) sandwich bot for Solana blockchain, leveraging Helius and Nozomi RPCs for optimal execution speed and profitability. This bot specializes in identifying and executing profitable arbitrage opportunities across major Solana DEXes.
+![image_1_-_king_-_me](https://github.com/user-attachments/assets/1ddae4b3-68a9-4ac7-bcba-c98165310333)
+![image_2_-_king_-_me](https://github.com/user-attachments/assets/8d2e7780-0e32-4661-b93d-bc427e2cfceb)
 
 ### ⚡ Key Features
 
