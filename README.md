@@ -1,109 +1,141 @@
-<div align="center">
-    <img src="neopop-land.png" alt="NeoPop Banner">
-    <h1>NeoPOP</h1>
-    <strong>NeoPOP is CRED's inbuilt library for using NeoPOP components in your web app.</strong>
-</div>
-<br>
-<div align="center">
-    <a href="https://github.com/CRED-CLUB/neopop-web/blob/main/LICENSE">
-        <img src="https://badgen.net/github/license/cred-club/neopop-web" alt="License">
-    </a>
-    <a href="https://twitter.com/cred_club">
-        <img src="https://img.shields.io/twitter/follow/cred_club?label=Twitter&style=flat&logo=twitter&color=1DA1F2" alt="CRED Twitter">
-    </a>
-</div>
-<div align="center">
-    <br>
-    <a href="https://playground.cred.club"><b>Playground/Docs »</b></a>
-    <br><br>
-</div>
+# Solana MEV Sandwich Bot | High-Performance Arbitrage Bot
 
-## what is NeoPOP?
+[![GitHub stars](https://img.shields.io/github/stars/cryptoking-max/solana-sandwich-bot?style=social)](https://github.com/cryptoking-max)
+[![Telegram](https://img.shields.io/badge/Telegram-Contact-blue)](https://t.me/cryptokingmax)
+[![Website](https://img.shields.io/badge/Website-cryptokingmax.com-green)](https://cryptokingmax.com)
 
-NeoPOP was created with one simple goal, to create the next generation of the next beautiful, more affirmative, design system. NeoPOP stays true to everything that design at CRED stands for.
+## 🚀 Advanced Solana MEV Bot for Maximum Profit
 
-## what this library features?
+A high-performance MEV (Maximal Extractable Value) sandwich bot for Solana blockchain, leveraging Helius and Nozomi RPCs for optimal execution speed and profitability. This bot specializes in identifying and executing profitable arbitrage opportunities across major Solana DEXes.
 
--   Easy to use and beautifully designed React components based on NeoPOP design system.
--   Flexible and composable components which accepts custom configurations.
--   Commonly used utility methods and functions.
--   Fluid and highly optimized animations.
+### ⚡ Key Features
 
-> note: currently the components in this library are optimized for mobile views, we will soon release support for desktop views.
+- **Real-time MEV Detection**: Advanced mempool monitoring using Helius RPC for instant opportunity detection
+- **Multi-DEX Arbitrage**: Seamless integration with Raydium, Orca, and Jupiter DEXes
+- **Priority Fee Optimization**: Smart transaction execution with dynamic priority fees
+- **Risk Management**: Advanced profit calculation and risk assessment
+- **Performance Monitoring**: Comprehensive logging and analytics system
+- **Baremetal Optimization**: Maximum performance for MEV opportunities
+- **Automated Trading**: 24/7 operation with minimal intervention
 
-## how to install?
+### 🛠️ Technical Specifications
 
-to use NeoPOP library, all you need to do is install the `@cred/neopop-web` package and its peer dependencies:
+- **Blockchain**: Solana
+- **RPC Providers**: Helius + Nozomi (Dual RPC for redundancy)
+- **Supported DEXes**: 
+  - Raydium
+  - Orca
+  - Jupiter
+- **Execution Speed**: Sub-second transaction processing
+- **Monitoring**: Real-time profit tracking and performance analytics
 
-```sh
-yarn add @cred/neopop-web react react-dom styled-components
+## 📋 Prerequisites
 
-# or
+- Node.js v16 or higher
+- Solana CLI tools
+- Helius RPC endpoint (Premium)
+- Nozomi RPC endpoint
+- Solana wallet with sufficient SOL for MEV operations
 
-npm i @cred/neopop-web react react-dom styled-components
+## 🚀 Quick Start Guide
+
+1. **Clone the Repository**:
+```bash
+git clone https://github.com/cryptoking-max/solana-sandwich-bot.git
+cd solana-sandwich-bot
 ```
 
-## how to use?
-
-to start using the library you can,
-
--   import components from `@cred/neopop-web/lib/components`
--   import primitives from `@cred/neopop-web/lib/primitives`
--   import hooks from `@cred/neopop-web/lib/hooks`
--   import utils from `@cred/neopop-web/lib/utils`
-
-for example, to use button refer the following code snippet:
-
-```jsx
-import { Button } from '@cred/neopop-web/lib/components';
-
-const Page = () => {
-    return (
-        <Button
-            variant="primary"
-            kind="elevated"
-            size="big"
-            colorMode="dark"
-            onClick={() => {
-                console.log("I'm clicked");
-            }}
-        >
-            Primary
-        </Button>
-    );
-};
-
-export default Page;
+2. **Install Dependencies**:
+```bash
+npm install
 ```
 
-a detailed documentation and an interactive playground can be found [here](https://playground.cred.club)
-
-## contributing
-
-pull requests are welcome! we'd love help improving this library. feel free to browse through open issues to look for things that need work. if you have a feature request or bug, please open a new issue so we can track it.
-
-## contributors
-
--   Chirag Mittal — [Github](https://github.com/mittalchirag) | [Linkedin](https://www.linkedin.com/in/mittalchirag/)
--   Tripurari Shankar — [Github](https://github.com/tripurari001) | [Linkedin](https://www.linkedin.com/in/tripurari-shankar-91907189/)
--   Rahul Jain — [Github](https://github.com/rahuldkjain) | [Linkedin](https://www.linkedin.com/in/rahuldkjain/)
--   Utkarsh Gupta — [Github](https://github.com/Utkarsh9799) | [Linkedin](https://www.linkedin.com/in/utkarsh-gupta-99923916a/)
--   Aditya Sharma — [Github](https://github.com/sharmaaditya570191) | [Linkedin](https://www.linkedin.com/in/sharmaaditya570191/)
--   Abhishek Naidu — [Github](https://github.com/abhisheknaiidu) | [Linkedin](https://www.linkedin.com/in/abhisheknaiidu/)
-
-## license
-
+3. **Configure Environment**:
+```bash
+cp .env.example .env
+# Edit .env with your configuration
 ```
-Copyright 2022 Dreamplug Technologies Private Limited.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+4. **Launch the Bot**:
+```bash
+npm start
 ```
+
+## ⚙️ Advanced Configuration
+
+### Environment Variables
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `HELIUS_RPC_URL` | Helius RPC endpoint | Required |
+| `NOZOMI_RPC_URL` | Nozomi RPC endpoint | Required |
+| `WALLET_PRIVATE_KEY` | Base64 encoded private key | Required |
+| `MIN_PROFIT_THRESHOLD` | Minimum profit in SOL | 0.5 |
+| `MAX_SLIPPAGE` | Maximum slippage % | 1.0 |
+| `GAS_PRIORITY` | Priority fee (micro-lamports) | 100 |
+| `LOG_LEVEL` | Logging verbosity | info |
+| `TARGET_DEXES` | Comma-separated DEX list | RAYDIUM,ORCA,JUPITER |
+
+## 🔧 System Architecture
+
+### Core Components
+
+1. **MEV Monitor**
+   - Real-time mempool analysis
+   - Transaction pattern recognition
+   - Opportunity scoring system
+
+2. **DEX Integration**
+   - Multi-DEX support
+   - Smart routing
+   - Liquidity analysis
+
+3. **Execution Engine**
+   - Transaction bundling
+   - Priority fee optimization
+   - Confirmation monitoring
+
+4. **Risk Management**
+   - Profit calculation
+   - Slippage protection
+   - Circuit breakers
+
+5. **Analytics**
+   - Performance metrics
+   - Profit tracking
+   - Error monitoring
+
+## 🔒 Security Best Practices
+
+- Use dedicated wallets for MEV operations
+- Implement proper error handling
+- Regular security audits
+- Monitor gas costs and fees
+- Circuit breakers for risk management
+- Secure private key storage
+
+## 📊 Performance Optimization
+
+- Baremetal server deployment
+- Dual RPC redundancy
+- Optimized transaction bundling
+- Smart gas fee management
+- Real-time opportunity scoring
+
+## 🤝 Support & Community
+
+- **GitHub**: [github.com/cryptoking-max](https://github.com/cryptoking-max)
+- **Telegram**: [t.me/cryptokingmax](https://t.me/cryptokingmax)
+- **Website**: [cryptokingmax.com](https://cryptokingmax.com)
+
+## ⚠️ Disclaimer
+
+This MEV bot is provided for educational and research purposes only. Users are responsible for their own trading decisions and should understand the risks involved in MEV operations. The authors and contributors are not liable for any financial losses incurred while using this software.
+
+## 📝 License
+
+MIT License - See [LICENSE](LICENSE) file for details
+
+---
+
+**Keywords**: Solana MEV Bot, Sandwich Bot, Arbitrage Bot, Solana Trading Bot, MEV Arbitrage, Solana DEX Trading, Raydium Bot, Orca Bot, Jupiter Bot, Solana Profit Bot, Cryptocurrency Trading Bot, Automated Trading, Solana DeFi, MEV Extraction, Solana Arbitrage 
