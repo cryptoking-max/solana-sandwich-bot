@@ -127,7 +127,6 @@ npm start
 ## 🤝 Support & Community
 
 - **GitHub**: [github.com/cryptoking-max](https://github.com/cryptoking-max)
-- **Telegram**: [t.me/cryptokingmax](https://t.me/cryptokingmax)
 - **Website**: [cryptokingmax.com](https://cryptokingmax.com)
 
 ## ⚠️ Disclaimer
