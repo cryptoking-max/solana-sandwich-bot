@@ -1,7 +1,7 @@
 # Solana MEV Sandwich Bot | High-Performance Arbitrage Bot
 
 [![GitHub stars](https://img.shields.io/github/stars/cryptoking-max/solana-sandwich-bot?style=social)](https://github.com/cryptoking-max)
-[![Telegram](https://img.shields.io/badge/Telegram-Contact-blue)](https://t.me/cryptokingmax)
+[![Telegram](https://img.shields.io/badge/Telegram-Contact-blue)](https://t.me/cryptokingmax0)
 [![Website](https://img.shields.io/badge/Website-cryptokingmax.com-green)](https://cryptokingmax.com)
 
 ## 🚀 Advanced Solana MEV Bot for Maximum Profit
